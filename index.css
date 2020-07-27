@@ -1,0 +1,273 @@
+body {
+  background-color: #ebecf1;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-size: 100%;
+}
+
+#testa {
+  position: relative;
+  height: 31.25em;
+  background-image: url("images/monte1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 10px;
+  padding: 3% 15% 7%;
+}
+
+#fine {
+  height: 500px;
+  background-image: url("images/monte2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 10px;
+  right: 80px;
+  padding: 3% 15% 7%;
+  border-style: groove;
+}
+
+#footer {
+  text-align: center;
+  padding: 3% 45% 1%;
+  color: #596e79;
+}
+
+#date {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  color: grey;
+  text-shadow: none;
+}
+
+#carosello {
+  background-color: #596e79;
+}
+
+#review {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#contatti {
+  padding: 5rem;
+  text-align: center;
+}
+
+#contatti p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#contatti h4 {
+  font-size: 3rem;
+}
+
+.navbar {
+  background-color: #596e79;
+}
+
+.navbar-brand {
+  font-family: 'Tangerine', cursive;
+  font-size: 2.2rem;
+}
+
+.navbar-toggler-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.testimonial-text {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.block1 {
+  top: 150px;
+  left: 30px;
+  position: absolute;
+  padding: 50px;
+  background: rgba(92, 107, 123, 0.6);
+  border-style: double;
+}
+
+.block2 {
+  text-align: right;
+  position: relative;
+  top: 50%;
+}
+
+.foto {
+  height: 150px;
+  width: 230px;
+  margin-bottom: 1rem;
+  border-style: groove;
+}
+
+.container {
+  padding: 5% 15% 5%;
+  text-align: center;
+}
+
+.btn123 {
+  font-size: 0.80rem;
+  background-color: #3b6978;
+  margin: 5% 3% 5% 0;
+  width: 200px;
+}
+
+.btn4 {
+  font-size: 1.5em;
+  background-color: #3b6978;
+}
+
+.fondo {
+  text-align: center;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+h1 {
+  position: relative;
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
+  font-size: 5em;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h4 {
+  color: #393e46;
+}
+
+p {
+  text-align: justify;
+  color: #393e46;
+}
+
+span {
+  font-family: 'Tangerine', cursive;
+  font-size: 4.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+a {
+  color: inherit;
+}
+
+em {
+  color: white;
+}
+
+.i1:hover {
+  color: #393e46;
+}
+
+.i2:hover {
+  color: #393e46;
+}
+
+.i3:hover {
+  color: #393e46;
+}
+
+.btn123:hover, .btn4:hover {
+  background-color: #393e46;
+}
+
+@media (max-width:1024px) {
+  .navbar-brand {
+    font-size: 5em
+  }
+
+  .nav-item {
+    font-size: 2em
+  }
+
+  h1 {
+    font-size: 10em
+  }
+
+  p {
+    font-size: 2em
+  }
+
+  h4 {
+    font-size: 2.5em
+  }
+
+  #testa {
+    height: 800px;
+    width: auto;
+  }
+
+  .block1 {
+    top: 270px;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  .btn123 {
+    font-size: 1.6em
+  }
+
+  #carosello p {
+    font-size: 2.1em
+  }
+
+  em {
+    font-size: 1.5em
+  }
+
+  .testimonial-image {
+    width: 40%
+  }
+
+  #contatti h4 {
+    font-size: 4em
+  }
+
+  #contatti p {
+    font-size: 3em;
+  }
+
+  .btn4 {
+    font-size: 3em
+  }
+
+  .i1, .i2, .i3 {
+    font-size: 3em
+  }
+
+  .fondo {
+    font-size: 2.5em
+  }
+
+  #date {
+    font-size: 1em
+  }
+}
